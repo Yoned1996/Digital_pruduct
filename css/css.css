@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: black;
+}
+
+.redes{
+    width: 50%;
+    float: right;
+    padding: 10px 10px 5px 0;
+}
+
+.redes ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes ul li{
+    margin: 0 5px;
+}
+
+.redes ul li img{
+    height: 30px;
+}
+
+.send_mail{
+    position: fixed;
+    border: solid;
+    right: 15px;
+    background: white;
+    padding: 10px;
+    display: none;  
+}
+
+.send_mail input{
+    margin: 5px 0;
+    border: solid gray 1px;
+    padding: 5px;
+    width: 200px;
+}
+
+#input_mail{
+    height: 20px;
+}
+
+#input_mesage{
+    height: 100px;
+}
+
+#send{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: black;
+    border:none;
+    float: right;
+}
+
+/* ------- FIN DEL HEADER --------------*/
+.container_about_me{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about_me{
+    width: 100%;
+    padding-top: 10%
+}
+
+.about_me p{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.about_me_picture{
+    width: 200px;
+    border: solid white 5px;
+    border-radius: 50%;
+    margin-bottom: 20px;;
+}
+
+#skills{
+    width: 100%;
+    display: flex;
+    flex: wrap;
+}
+
+#skills div{
+    width: 50%;
+}
+
+/* ---------Fin ABOUT ME---------------- */
+
+.diseño{
+    background: white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+}
+
+.illustrator{
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+.illustrator img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.illustrator strong{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#nivel_illustrator{
+    width: 80%;
+    border: solid black 5px;
+    background: black;
+    height: 20px;
+    margin: 5px 10px 0;
+}
+
+.sub_nivel{
+    background: #F7931E;
+    width: 70%;
+    display: block;
+    height: 100%;
+}
+
+.container_trabajos{
+    width: 100%;
+    background: black;
+    margin-top: 20px;
+}
+
+.trabajos{
+    margin: auto;
+    width: 90%;
+    padding: 50px 0;
+    max-width: 1000px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,280px);
+    justify-content: center;
+    grid-gap: 15px;
+    color: white;
+}
+
+.container_draw{
+    height: 325px;
+    background: white;
+    border: solid white;
+}
+
+.draw{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container_draw img{
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.actions{
+    width: 100%;
+    overflow: hidden;
+    /* padding: 2.5px 0; */
+    height: 40px;
+}
+
+.actions ul{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    border-top: solid black 3px;
+    padding-top: 5px;
+}
+
+.actions ul li{
+    list-style-type: none;
+}
+
+.actions ul li img{
+    height: 20px;
+    cursor: pointer;
+}
